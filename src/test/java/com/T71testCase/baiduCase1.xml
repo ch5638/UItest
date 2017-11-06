@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="suite1">
+<parameter name="url" value="http://www.baidu.com"/>
+<parameter name="f1" value="新梦想软件测试"/>
+<parameter name="f2" value="我想去新梦想"/>
+<parameter name="f3" value="新梦想最棒"/>
+<test name="test1">
+<classes>
+<class name="com.T71testCase.baidu1" />
+	</classes>
+	</test>
+</suite>

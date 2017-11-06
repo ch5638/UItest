@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[info消息：已成功打开网址]]>
+    </line>
+    <line>
+      <![CDATA[info消息：执行百度搜索业务]]>
+    </line>
+    <line>
+      <![CDATA[info消息：执行百度搜索业务]]>
+    </line>
+    <line>
+      <![CDATA[info消息：执行百度搜索业务]]>
+    </line>
+  </reporter-output>
+  <suite name="suite1" duration-ms="36007" started-at="2017-10-21T03:02:18Z" finished-at="2017-10-21T03:02:54Z">
+    <groups>
+    </groups>
+    <test name="test1" duration-ms="36007" started-at="2017-10-21T03:02:18Z" finished-at="2017-10-21T03:02:54Z">
+      <class name="T71kuangjia1.baiduTest">
+        <test-method status="PASS" signature="init(java.lang.String)[pri:0, instance:T71kuangjia1.baiduTest@5e853265]" name="init" is-config="true" duration-ms="10481" started-at="2017-10-21T11:02:18Z" finished-at="2017-10-21T11:02:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.baidu.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[info消息：已成功打开网址]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:T71kuangjia1.baiduTest@5e853265]" name="test3" duration-ms="22300" started-at="2017-10-21T11:02:28Z" finished-at="2017-10-21T11:02:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[info消息：执行百度搜索业务]]>
+            </line>
+            <line>
+              <![CDATA[info消息：执行百度搜索业务]]>
+            </line>
+            <line>
+              <![CDATA[info消息：执行百度搜索业务]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="end()[pri:0, instance:T71kuangjia1.baiduTest@5e853265]" name="end" is-config="true" duration-ms="3151" started-at="2017-10-21T11:02:50Z" finished-at="2017-10-21T11:02:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- T71kuangjia1.baiduTest -->
+    </test> <!-- test1 -->
+  </suite> <!-- suite1 -->
+</testng-results>
